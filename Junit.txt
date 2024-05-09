@@ -1,0 +1,12 @@
+#Maven
+#Build your java project and run tests with Apache Maven
+#Add steps that analyze code, save build artists, deploy, and more:
+#https://docs.microsoft.com/azure/devops/pipline/languages/java
+
+trigger:
+-master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
